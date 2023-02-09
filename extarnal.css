@@ -217,7 +217,10 @@ main {
   font-size: 40px;
   font-weight: 900;
 }
-
+.My-team h1{font-size: 31px;
+            margin-bottom: 9px;
+            color: rgba(27, 26, 26, 0.957);}
+.My-team p{color: rgba(255, 255, 255, 0.746);}            
 .team-member1 {
   border: 1px solid black;
   border-radius: 6px;
