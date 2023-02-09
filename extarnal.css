@@ -1,5 +1,7 @@
-  *{margin: 0;
-  font-family: "Work Sans", sans-serif;}
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
 
 /******************************* header style ****************************************/
 .header {
@@ -25,7 +27,7 @@
   color: #ffffff;
 }
 .baner-description {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 26px;
@@ -37,7 +39,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  color: #005FAC;
+  color: #005fac;
   padding: 21px 26px;
   background: #ffffff;
   border-radius: 5px;
@@ -94,76 +96,167 @@ main {
 /* .my-plans-section{} */
 .my-plans-section-title {
   text-align: center;
-   color: #151414;
-   font-weight: 900;
-font-size: 40px;
-line-height: 47px;
+  color: #151414;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
 }
 .my-plans-section .plans {
   margin-top: 120px;
   margin-bottom: 60px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 /* .SubPlan1{margin-left: -35px;} */
-.SubPlan1 img{margin: auto;display: flex;}
-.SubPlan2 img{margin: auto;display: flex;}
-.SubPlan3 img{margin: auto;display: flex;}
-.SubPlan4 img{margin: auto;display: flex;}
-.SubPlan5 img{margin: auto;display: flex;}
+.SubPlan1 img {
+  margin: auto;
+  display: flex;
+}
+.SubPlan2 img {
+  margin: auto;
+  display: flex;
+}
+.SubPlan3 img {
+  margin: auto;
+  display: flex;
+}
+.SubPlan4 img {
+  margin: auto;
+  display: flex;
+}
+.SubPlan5 img {
+  margin: auto;
+  display: flex;
+}
 
-.SubPlan1 p{text-align: center;
-            color:  #737272;}
-.SubPlan2 p{text-align: center;
-            color:  #737272;}
-.SubPlan3 p{text-align: center;
-            color:  #737272;}
-.SubPlan4 p{text-align: center;
-            color:  #737272;}
-.SubPlan5 p{text-align: center;
-            color:  #737272;}
+.SubPlan1 p {
+  text-align: center;
+  color: #737272;
+}
+.SubPlan2 p {
+  text-align: center;
+  color: #737272;
+}
+.SubPlan3 p {
+  text-align: center;
+  color: #737272;
+}
+.SubPlan4 p {
+  text-align: center;
+  color: #737272;
+}
+.SubPlan5 p {
+  text-align: center;
+  color: #737272;
+}
 
-.SubPlan1 h3{
+.SubPlan1 h3 {
   text-align: center;
   font-size: 30px;
   line-height: 35px;
-  color:#151414;}
-.SubPlan2 h3{font-weight: 700;
+  color: #151414;
+}
+.SubPlan2 h3 {
+  font-weight: 700;
   text-align: center;
   font-size: 30px;
   line-height: 35px;
-  color:#151414;}
- .SubPlan3 h3{font-weight: 700;
+  color: #151414;
+}
+.SubPlan3 h3 {
+  font-weight: 700;
   text-align: center;
   font-size: 30px;
   line-height: 35px;
-  color:#151414;}
-  .SubPlan4 h3{font-weight: 700;
-    text-align: center;
-    font-size: 30px;
-    line-height: 35px;
-    color:#151414;}
-   .SubPlan5 h3{font-weight: 700;
-    text-align: center;
-    font-size: 30px;
-    line-height: 35px;
-    color:#151414;}
+  color: #151414;
+}
+.SubPlan4 h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+}
+.SubPlan5 h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+}
 
 .awlaysKeep {
+  border-radius: 8px;
   padding: 59px 64px;
   margin: 60px 0px 130px 0px;
   border: 1px solid black;
   background-repeat: no-repeat;
-  background: linear-gradient(80deg,#003F86, white), url(images/watch.png);
+  background: linear-gradient(80deg, #003f86, white), url(images/watch.png);
   background-blend-mode: multiply;
-  background-size: cover;}
-.awlaysKeep h2{color: #ffffff;
+  background-size: cover;
+}
+.awlaysKeep h2 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  margin-bottom: 30px;}  
+  margin-bottom: 30px;
+}
 
-/*Footer section Style*/
+/*******************my team section start********************/
+.My-team {
+  display: flex;
+  background-color: #f5f5f5;
+  gap: 26px;
+  margin-bottom: 110px;
+}
+
+.my-team-title {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.team-member1 {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.team-member2 {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  text-align: justify;
+}
+
+.team-member3 {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  text-align: justify;
+}
+
+.team-member1 img {
+  border-radius: 5px;
+  margin: auto;
+}
+.team-member2 img {
+  border-radius: 18px;
+  padding-bottom: 70px;
+  margin: auto;
+}
+.team-member3 img {
+  border-radius: 1px;
+  margin: auto;
+}
+
+/*******************my team section End********************/
+
+/********************Footer section Style******************/
 .footer {
   display: flex;
   background-color: #151414;
@@ -173,41 +266,52 @@ line-height: 47px;
 }
 
 .future-content {
-  margin: 128px 0px 131px 230px;}
-.future-content-title{font-weight: 700;
+  margin: 128px 0px 131px 230px;
+}
+.future-content-title {
+  font-weight: 700;
   font-size: 45px;
   line-height: 53px;
-   color:#FFFFFF;
-   margin-bottom: 26px;}
-.future-content-decription{font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.future-content-decription {
+  font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  margin-bottom: 16px;}  
-.future-content-email{
   margin-bottom: 16px;
-  color: #FFFFFF;
-  font-weight: 400;
-font-size: 16px;
-line-height: 26px;
 }
-.future-content-phone{color:#FFFFFF;
+.future-content-email {
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.future-content-phone {
+  color: #ffffff;
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;}
-.future-content-icons{width: 190px;
-                      display: flex;
-                      justify-content:space-between ;}
-
+  line-height: 26px;
+}
+.future-content-icons {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .from {
-  margin: 128px 129px 244px 0px;}
-.from-title{font-weight: 600;
-             font-size: 25px;
-             line-height: 29px;
-             color: #FFFFFF; 
+  margin: 128px 129px 244px 0px;
 }
-.from-email-input {background-color:#151414;
+.from-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.from-email-input {
+  background-color: #151414;
   border: 1px solid #ffffff;
   font-weight: 400;
   font-size: 20px;
