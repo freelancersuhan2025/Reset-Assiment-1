@@ -25,11 +25,11 @@
   color: #ffffff;
 }
 .baner-description {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 100;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 26px;
-  color: #ffffff;
+  color: #f5f1f1f3;
   padding-top: 28px;
   padding-bottom: 28px;
 }
@@ -37,7 +37,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  color: #005fac;
+  color: #005FAC;
   padding: 21px 26px;
   background: #ffffff;
   border-radius: 5px;
@@ -66,16 +66,21 @@ main {
   font-weight: 900;
   font-size: 40px;
   line-height: 47px;
+  margin-bottom: 26px;
 }
 .my-failures-section-content-description {
-  color: #444343;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  color: #444343e0;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 27px;
+  word-spacing: 2px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
 }
 
 .my-failures-section-content .fa-solid {
   color: #16d887;
+  font-size: 25px;
 }
 .my-failures-section-content h3 {
   color: #444343;
@@ -86,8 +91,7 @@ main {
 /*************my failures section all style End******************/
 
 /*************my Plans section section all style start******************/
-.my-plans-section {
-}
+/* .my-plans-section{} */
 .my-plans-section-title {
   text-align: center;
    color: #151414;
