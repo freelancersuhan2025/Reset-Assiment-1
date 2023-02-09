@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  font-family: "Work Sans", sans-serif;
-}
+  *{margin: 0;
+  font-family: "Work Sans", sans-serif;}
 
 /******************************* header style ****************************************/
 .header {
@@ -56,14 +54,12 @@ main {
 /*************my failures section all style start******************/
 .my-failures-section {
   display: flex;
-  border: 1px solid red;
   margin-top: 131px;
   margin-bottom: 124px;
   gap: 87px;
   align-items: center;
 }
 .my-failures-section-content {
-  border: 1px solid red;
   text-align: left;
 }
 .my-failures-section-content-title {
@@ -91,28 +87,77 @@ main {
 
 /*************my Plans section section all style start******************/
 .my-plans-section {
-  border: 1px solid red;
 }
 .my-plans-section-title {
   text-align: center;
+   color: #151414;
+   font-weight: 900;
+font-size: 40px;
+line-height: 47px;
 }
 .my-plans-section .plans {
-  margin-top: 125px;
+  margin-top: 120px;
   margin-bottom: 60px;
-  border: 1px solid red;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
 }
+/* .SubPlan1{margin-left: -35px;} */
+.SubPlan1 img{margin: auto;display: flex;}
+.SubPlan2 img{margin: auto;display: flex;}
+.SubPlan3 img{margin: auto;display: flex;}
+.SubPlan4 img{margin: auto;display: flex;}
+.SubPlan5 img{margin: auto;display: flex;}
+
+.SubPlan1 p{text-align: center;
+            color:  #737272;}
+.SubPlan2 p{text-align: center;
+            color:  #737272;}
+.SubPlan3 p{text-align: center;
+            color:  #737272;}
+.SubPlan4 p{text-align: center;
+            color:  #737272;}
+.SubPlan5 p{text-align: center;
+            color:  #737272;}
+
+.SubPlan1 h3{
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color:#151414;}
+.SubPlan2 h3{font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color:#151414;}
+ .SubPlan3 h3{font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  color:#151414;}
+  .SubPlan4 h3{font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color:#151414;}
+   .SubPlan5 h3{font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color:#151414;}
 
 .awlaysKeep {
   padding: 59px 64px;
   margin: 60px 0px 130px 0px;
   border: 1px solid black;
   background-repeat: no-repeat;
-  background: linear-gradient(45deg, #0d65ae, white), url(images/watch.png);
+  background: linear-gradient(80deg,#003F86, white), url(images/watch.png);
   background-blend-mode: multiply;
-  background-size: cover;
-}
+  background-size: cover;}
+.awlaysKeep h2{color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 30px;}  
 
 /*Footer section Style*/
 .footer {
@@ -128,36 +173,43 @@ main {
 .future-content-title{font-weight: 700;
   font-size: 45px;
   line-height: 53px;
-   color:#FFFFFF;}
+   color:#FFFFFF;
+   margin-bottom: 26px;}
 .future-content-decription{font-weight: 400;
   font-size: 16px;
-  line-height: 26px;}  
+  line-height: 25px;
+  margin-bottom: 16px;}  
 .future-content-email{
+  margin-bottom: 16px;
   color: #FFFFFF;
   font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 }
-.future-content-phone{color:#FFFFFF;}
-.future-content-icons{border: 1px solid red;}
+.future-content-phone{color:#FFFFFF;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;}
+.future-content-icons{width: 190px;
+                      display: flex;
+                      justify-content:space-between ;}
 
 
 .from {
-  margin: 128px 129px 244px 0px;
-  border: 1px solid red;
-}
+  margin: 128px 129px 244px 0px;}
 .from-title{font-weight: 600;
              font-size: 25px;
              line-height: 29px;
              color: #FFFFFF; 
 }
 .from-email-input {background-color:#151414;
-  border:1px solid white;
+  border: 1px solid #ffffff;
   font-weight: 400;
   font-size: 20px;
   line-height: 21px;
-  color: white;
-  padding: 10px ;
+  padding-left: 37px;
+  color: #ffffff;
   border-radius: 8px;
   width: 325px;
   height: 64px;
@@ -167,9 +219,9 @@ line-height: 26px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 22px;
   background-color: #005fac;
-  padding: 20px 37px;
+  padding: 19px 37px;
   color: #ffffff;
   border-radius: 8px;
   border: 0px;
