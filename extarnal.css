@@ -276,20 +276,20 @@ main {
   margin-bottom: 26px;
 }
 .future-content-decription {
-  font-weight: 400;
+  font-weight: 400;color:#e5e0e0cc;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 16px;
 }
 .future-content-email {
   margin-bottom: 16px;
-  color: #ffffff;
+  color:#e5e0e0cc;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }
 .future-content-phone {
-  color: #ffffff;
+  color:#e5e0e0cc;
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
